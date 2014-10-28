@@ -1,10 +1,6 @@
 require "spec_helper"
 
 describe "Array basics, part 2" do
-  before do
-    pending
-  end
-
   let(:___) { nil }
   let(:friends) {
     [

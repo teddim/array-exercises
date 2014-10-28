@@ -11,10 +11,6 @@ describe "Tic Tac Toe, in arrays" do
     ]
   }
 
-  before do
-    pending
-  end
-
   describe "counting usage per row" do
     it "returns how many times X was played in each row" do
       xs_per_row = ___
