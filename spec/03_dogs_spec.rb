@@ -23,7 +23,7 @@ describe "Array basics, part 3" do
 
   xit "returns the first three names" do
     first_three = ___
-    expect(first_three).to be == ["odiF", "hgielraH", "ilaM", "eixirT", "wonS", "yrotciV"]
+    expect(first_three).to be == ["Fido", "Harleigh", "Mali"]
   end
 
   xit "returns a reversed case of the dog names" do
