@@ -5,7 +5,7 @@ describe 'Array basics' do
   let(:fruit) { ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes'] }
 
   it "can report its length" do
-    fruit_length = ___
+    fruit_length = fruit.length
     expect( fruit_length ).to be == 5
   end
 
@@ -22,12 +22,12 @@ describe 'Array basics' do
 
   xit "can report the length of each string in the array" do
     lengths = ___
-    expect( lengths ).to be == [6, 11, 7, 7, 12, 6]
+    expect( lengths ).to be == [6, 7, 7, 12, 6]
   end
 
   xit "can create a new array where all the fruit capitalized" do
     new_array = ___
-    expect( new_array ).to be == ["APPLES", "RASPBERRIES", "ORANGES", "BANANAS", "POMEGRANATES", "GRAPES"]
+    expect( new_array ).to be == ["APPLES", "ORANGES", "BANANAS", "POMEGRANATES", "GRAPES"]
   end
 
   xit "can create a new array that returns only fruits containing a 'g'" do
