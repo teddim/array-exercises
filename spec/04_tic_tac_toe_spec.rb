@@ -30,8 +30,8 @@ describe "Tic Tac Toe, in arrays" do
     end
 
     xit "returns an array of [row, column] array coordinates for each usage of O" do
-      x_coordinates = ___
-      expect(x_coordinates).to be == [[0, 1], [0, 2], [1, 2], [2, 0], [2, 2]]
+      o_coordinates = ___
+      expect(o_coordinates).to be == [[0, 1], [0, 2], [1, 2], [2, 0], [2, 2]]
     end
   end
 
