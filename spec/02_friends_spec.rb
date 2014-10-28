@@ -26,7 +26,7 @@ describe "Array basics, part 2" do
 
   xit "returns our friends in reverse alphabetical order" do
     reverse_alpha_friends = ___
-    expect(alt_ordered_friends).to be == ["Zeke", "Martha", "Ko", "Kane", "John", "Janis", "Adolfo"]
+    expect(reverse_alpha_friends).to be == ["Zeke", "Martha", "Ko", "Kane", "John", "Janis", "Adolfo"]
   end
 
   xit "returns a nested array, where each element includes the name and length of that name" do
