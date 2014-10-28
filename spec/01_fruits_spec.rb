@@ -17,7 +17,7 @@ describe 'Array basics' do
   xit "can create a new array where 'raspberries' is between apples and oranges" do
     new_array = ___
     expect( new_array ).to be == ['apples', 'raspberries', 'oranges', 'bananas', 'pomegranates', 'grapes']
-    expect(fruits.count).to be == 5
+    expect(fruit.count).to be == 5
   end
 
   xit "can report the length of each string in the array" do
