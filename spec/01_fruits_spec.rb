@@ -5,7 +5,6 @@ describe 'Array basics' do
   let(:fruit) { ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes'] }
 
   it "can report its length" do
-    puts "MAKING CHANGES!!!"
     fruit_length = fruit.length
     expect( fruit_length ).to be == 5
   end
