@@ -13,12 +13,19 @@ describe "Tic Tac Toe, in arrays" do
 
   describe "counting usage per row" do
     it "returns how many times X was played in each row" do
-      xs_per_row = ___
+      xs_per_row = data.map do |row|
+        xs = row.select {|r| r == 'X' }
+        x_count = xs.length
+      end
+
       expect(xs_per_row).to be == [1, 2, 1]
     end
 
-    xit "returns how many times O was played in each row" do
-      os_per_row = ___
+    it "returns how many times O was played in each row" do
+      os_per_row = data.map do |row|
+        os = row.select {|r| r == 'O' }
+        o_count = os.length
+      end
       expect(os_per_row).to be == [2, 1, 2]
     end
   end
