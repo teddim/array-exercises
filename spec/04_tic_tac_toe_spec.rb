@@ -13,7 +13,7 @@ describe "Tic Tac Toe, in arrays" do
 
   describe "counting usage per row" do
     it "returns how many times X was played in each row" do
-      xs_per_row = ___
+      xs_per_row = [data[0].count('X'), data[1].count('X'), data[2].count('X')]
       expect(xs_per_row).to be == [1, 2, 1]
     end
 
