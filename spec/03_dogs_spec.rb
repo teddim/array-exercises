@@ -49,8 +49,13 @@ describe "Array basics, part 3" do
     expect(sum_of_name_lengths).to be == 33
   end
 
-  xit "returns all the dogs whose names are longer that 4 characters" do
-    long_names = ___
+  it "returns all the dogs whose names are longer that 4 characters" do
+    long_names = []
+    dogs.each do |dog|
+      if dog.length > 4
+        long_names << dog
+      end
+    end
     expect(long_names).to be == ["Harleigh", "Trixie", "Victory"]
   end
 end
